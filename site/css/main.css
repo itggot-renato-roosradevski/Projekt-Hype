@@ -13,9 +13,8 @@ nav {
     width:15%;
     min-width: 200px; ;
     max-width: 300px; ;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-right: 3%;
-    margin-top: 2%;
 }
 
 .meny {
@@ -39,7 +38,8 @@ nav {
 .container {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    align-items: center;
+    width: 70%;
 }
 .rubrik {
     text-align: center;
@@ -50,4 +50,50 @@ nav {
 .pic {
     justify-content: center;
     display: flex;
+}
+
+.a1{
+    padding: 10 px;
+    margin-left: 5px;
+    margin-right:5px;
+    width: 25%;
+    height: 100%;
+}
+.a1box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+
+}
+.a3{
+    padding: 10 px;
+    margin: 5px;
+    border: solid grey 2px;
+    width: 25%;
+    height: 90%;
+}
+
+.a1pic {
+    width: 100%;
+    height: 100%;
+    border: dashed black 2px;
+}
+.articlemessg {
+    font-style: italic;
+    font-family: fantasy;
+    border: solid black 2px;
+    width: 270px;
+}
+.article {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    justify-content: center;
+}
+.info1{
+    flex-direction: column;
+    display: 
 }
