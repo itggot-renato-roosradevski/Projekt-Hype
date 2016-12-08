@@ -40,6 +40,7 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 70%;
+    justify-content: center;
 }
 .rubrik {
     text-align: center;
@@ -87,7 +88,7 @@ nav {
 }
 .article {
     width: 500px;
-    height: 100px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     margin-top: 60px;
@@ -95,5 +96,22 @@ nav {
 }
 .info1{
     flex-direction: column;
-    display: 
+    display: flex;
+    justify-content: center;
+}
+.pic_info1{
+    justify-content: center;
+    display:flex;
+}
+
+.info2{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pic_info2{
+    justify-content: center;
+    display:flex;
+
 }
